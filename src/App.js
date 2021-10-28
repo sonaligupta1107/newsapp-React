@@ -36,9 +36,7 @@ class App extends Component {
             <Route exact path="/entertainment">
               <News key="entertainment" pageSize={8} country="in" category='entertainment' />
             </Route>
-            {/* <Route exact path="/general">
-              <News key="general" pageSize={8} country="in" category='general' />
-            </Route> */}
+
           </Switch>
         </Router>
       </div>
